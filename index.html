@@ -1,11 +1,215 @@
-<!Doctype html>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Hello qa startup</title>
+	<title>Curriculum Vitae</title>
+	<style type="text/css">
+
+		body {
+			font-family: Calibri;
+		}
+
+		#main {
+			width: 616px;
+			outline: 5px solid rgb(255, 255, 255);
+    		border: 2px solid rgb(211, 211, 211);
+    		background-color: rgb(61, 79, 91);
+		}
+
+		#CV {
+			background-color: rgb(61, 79, 91);
+		}
+
+		h1 {
+			color: rgb(255, 255, 255);
+			text-align:  center;
+			font-weight: lighter;
+		}
+ 
+ 		.line {
+ 			padding: 5px;
+			border-bottom:3px solid rgb(158, 193, 212);
+ 		}
+
+ 		li {
+ 			color: rgb(8, 115, 186);
+ 		}
+
+ 		#right {
+ 			background-color: rgb(255, 255, 255);
+ 		}
+
+ 		#right ul {
+ 			list-style: none;
+ 			padding-left: 5px;
+ 		}
+
+ 		#right ul li:before {
+   			 content: "-";
+   			 position: relative;
+   			 left: -5px;
+		}
+
+ 		.title {
+ 			color: rgb(8, 115, 186);
+ 			font-weight: bold;
+ 		}
+
+ 		#photo img {
+ 			width: 110px;
+ 			height: 110px;
+ 			border-radius: 30px;
+ 			border: 2px solid rgb(211, 211, 211);
+ 			margin: 30px;
+ 		}
+
+ 		#left {
+ 			background: linear-gradient(to right, rgb(67, 67, 67), rgb(110, 110, 110));
+ 		}
+
+ 		#name {
+ 			border-bottom:3px solid rgb(255, 255, 0);
+ 		}
+
+ 		.name_style {
+ 			color: rgb(255, 255, 255);
+ 			font-size: 35px;
+ 			margin: 5px 10px;
+ 		}
+
+ 		a {
+ 			color: rgb(0, 191, 255)
+ 		}
+
+		#contacts ul li {
+   			 color: rgb(255, 255, 255);
+		}
+
+		#contacts {
+			padding-bottom: 5px;;
+		}
+
+		#contacts p {
+			color: rgb(255, 255, 255);
+			text-decoration: underline;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		#lang p {
+			color: rgb(255, 255, 255);
+			text-decoration: underline;
+			font-weight: bold;
+			font-size: 20px;
+			padding-left: 40px;
+		}
+
+		#e {
+			background-color: rgb(255, 165, 0);
+			width: 75px;
+ 			height: 20px;
+ 			border-radius: 7px;
+ 			text-align: center;
+ 			margin: 15px;
+		}
+
+
+		#lang h2 {
+			color: rgb(255, 255, 255);
+			padding: 0px;
+			font-size: 15px;
+			font-weight: lighter;
+		}
+
+
+		#u {
+			background-color: rgb(1, 116, 223);
+			width: 115px;
+ 			height: 20px;
+ 			border-radius: 7px;
+ 			text-align: center;
+ 			margin: 15px;
+		}
+
+		#s {
+			background-color: rgb(0, 128, 0);
+			width: 50px;
+ 			height: 20px;
+ 			border-radius: 7px;
+ 			text-align: center;
+ 			margin: 15px;
+		}
+
+		.flex {
+			display: flex;
+		}
+
+
+	</style>
 </head>
 <body>
-	<h1>Hello qa startup</h1>
+	<div id="main"> 
+		<div id="CV"> 
+			<h1> Curriculum vitae </h1>
+		</div>
+		<div class="flex">
+			<div id="left"> 			
+				<div id="photo">
+					<img src="miniony-foto-na-avatarku1.jpg" alt="photo"> 
+				</div>
+				<div id="name">
+					<p class="name_style"> Yaroslava</p>
+					<p class="name_style"> Bilko </p>
+				</div>
+				<div id="lang">
+					<p>Languages:</p>
+						<div id="e"><h2>English</h2></div>
+						<div id="u"><h2>Ukrainian</h2></div>
+						<div id="s"><h2>Spanish</h2></div>
+					</table>
+				</div>
+				<div id="contacts">
+					<ul> <p>Contacts:</p>
+						<li><a href="https://www.facebook.com">Facebook</a></li>
+						<li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+						<li><a href="https://www.vk.com">VK</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="right"> 
+				<div class="line">
+					<div class="title">Summary:</div>
+						<ul>
+							<li>Understanding of Software Development Life Cycle and Fundamental Test Process;</li>
+							<li>Understanding of Software Development Models (Waterfall, V-model, Agile/Scrum);</li>
+							<li>Knowledge of testing methodologies, types and levels;</li>
+							<li>Static and dynamic test design techniques;</li>
+							<li>Positive and negative testing;</li>
+							<li>Experience in developing test plan and test cases;</li>
+							<li>Using of Bug Tracking System Jira.</li>
+						</ul>
+				</div>
+				<div class="line">
+					<div class="title">Technical Skills:</div>
+						<ul>
+							<li>Database: MySQL, MS SQL Server</li>
+							<li>Bug Tracking System: Jira</li>
+							<li>Other:  HTTP, HTML/CSS, Selenium IDE, web debugging tools</li>
+						</ul>
+				</div>
+				<div class="line">
+					<div class="title">Soft Skills:</div>
+						<ul>
+							<li>Acting as a team player, </li>
+							<li>effective communications skills, </li>
+							<li>adaptability,</li>
+							<li>problem solving, </li>
+							<li>ability to learn quickly.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
